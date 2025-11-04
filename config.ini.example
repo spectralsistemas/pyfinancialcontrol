@@ -1,0 +1,26 @@
+; Exemplo de arquivo de configuração para conexão ao banco
+; Salve como `config.ini` na raiz do projeto para ser detectado automaticamente.
+
+[database]
+# Opções:
+# url = <URL completa do banco, ex: postgresql://user:pass@host:5432/dbname>
+# ou fornecer campos separados abaixo
+# driver = postgresql | sqlite
+# user = seu_usuario
+# password = sua_senha
+# host = endereco_do_servidor
+# port = 5432
+# dbname = nome_do_banco
+# file = caminho/para/financeiro.db   ; se usar sqlite
+
+# Exemplo usando Postgres:
+;driver = postgresql
+;user = meuusuario
+;password = minhasenha
+;host = 127.0.0.1
+;port = 5432
+;dbname = financial_db
+
+# Exemplo usando SQLite (arquivo local):
+;driver = sqlite
+;file = financeiro.db

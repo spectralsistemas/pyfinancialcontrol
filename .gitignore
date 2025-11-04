@@ -1,0 +1,32 @@
+# Ambientes Virtuais
+.venv/
+venv/
+ENV/
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de distribuição e build (PyInstaller)
+build/
+dist/
+*.spec
+
+# Arquivos de banco de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de configuração com dados sensíveis
+# Mantenha o config.ini.example no repositório
+config.ini
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup do banco de dados
+financeiro_backup_*.db
+
