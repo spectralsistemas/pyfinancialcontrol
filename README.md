@@ -74,6 +74,8 @@ financial/
 
 O programa utiliza um banco de dados SQLite (`financeiro.db`) que será criado automaticamente na primeira execução do programa. Todos os dados são armazenados localmente no seu computador.
 
+Para usuários avançados, também é possível configurar a aplicação para usar um banco de dados **PostgreSQL**. As instruções detalhadas para essa configuração estão no arquivo POSTGRES_SETUP.md.
+
 ## Configuração de conexão via arquivo (opcional)
 
 Além de poder configurar a conexão via variável de ambiente `DATABASE_URL`, você também pode criar um arquivo `config.ini` na raiz do projeto com a seção `[database]` para informar as credenciais.
