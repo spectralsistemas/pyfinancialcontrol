@@ -30,3 +30,8 @@ Thumbs.db
 # Arquivos de backup do banco de dados
 financeiro_backup_*.db
 
+#Arquivos de IDE
+.idea/
+.vscode/
+
+
